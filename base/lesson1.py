@@ -27,3 +27,9 @@ int = 123   # Целое число
 float = 23.45   # Дробная число
 str = "Hello world" # Строка
 bool = True,False # Логический тип данный 
+
+# c помощью встроенной функции  type узнаем тип
+print(type(1))
+print(type(1.5))
+print(type("hello"))
+
