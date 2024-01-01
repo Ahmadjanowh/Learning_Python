@@ -28,3 +28,26 @@ set - "Множества - хранить уникальные данные (у
 # Не изменяемые 
 frozenset - "Замароженный Множества - точна так как set но не изменяемый"
 tuple  - "Картежи - точна так как в list но не изменяемый"
+
+""""Условие if else"""
+
+age = int(input("Enter you age: "))
+if age >= 18: # Если условия выполняеться
+    print("Allowed") # Зарабатает этот код 
+else: # Иначи 
+    print('Disallowed')  # Зарабатает этот код 
+
+num1 = int(input("Enter number1: "))
+num2 = int(input("Enter number2: "))
+op = input("+ - * / : ")
+
+if op == '+':
+    print(num1+num2)
+elif op == '-': # Еначи если 
+    print(num1+num2)
+elif op == '*':
+    print(num1*num2)
+elif op == '/':
+    print(num1/num2)
+else: 
+    print('error')
